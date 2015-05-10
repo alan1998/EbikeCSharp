@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO.Ports;
+using System.Diagnostics;
 
 namespace ControllerMimic
 {
@@ -22,6 +23,7 @@ namespace ControllerMimic
             m_Port.DataReceived += new SerialDataReceivedEventHandler(DataReceived);
             Msg = new RecMessage();
             parent = p;
+            Debug.WriteLine("Connect");
         }
 
         ~Comms()

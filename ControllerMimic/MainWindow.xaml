@@ -12,7 +12,7 @@
             <Button  Margin="5" Width="Auto" Height="25" Name="butConnect" Click="butConnect_Click">Connect</Button>
         </StackPanel>
         <Canvas Grid.Row="0">
-            <Slider Name="sldSpeed" ValueChanged="sldSpeed_ValueChanged" Minimum="32" Maximum="10000" Grid.Row="0" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="238"/>
+            <Slider Name="sldSpeed" ValueChanged="sldSpeed_ValueChanged" Minimum="0" Maximum="2000" Grid.Row="0" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="238"/>
             <TextBlock Name="txtSpeed" Width="80" Height="25" Margin="252,10,185,124" />
             <TextBlock TextElement.FontSize="20" RenderTransformOrigin="0.905,3.312" Canvas.Left="47" Canvas.Top="46" Width="41" >PAS</TextBlock>
             <TextBlock Name="txtPAS" TextElement.FontSize="20" RenderTransformOrigin="0.905,3.312" Canvas.Left="88" Canvas.Top="46" Width="41" >0</TextBlock>
